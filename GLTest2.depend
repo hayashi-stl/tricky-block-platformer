@@ -1,0 +1,566 @@
+# depslib dependency file v1.0
+1416772071 source:c:\users\owner\documents\c++ stuff\gltest2\geometry\vertexdata.cpp
+	<GL/glew.h>
+	<GL/glext.h>
+	"VertexData.hpp"
+
+1416772863 c:\users\owner\documents\c++ stuff\gltest2\geometry\vertexdata.hpp
+	<deque>
+
+1421197191 source:c:\users\owner\documents\c++ stuff\gltest2\main.cpp
+	<stdlib.h>
+	<GL/glew.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<exception>
+	<thread>
+	"util.h"
+	"Resources.h"
+	"Math/Matrix.h"
+	"Mesh.h"
+	<list>
+	"Mesh/GeneralObj.h"
+	"Constants.h"
+
+1416665416 c:\users\owner\downloads\glut\glut\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1416797094 c:\users\owner\documents\c++ stuff\gltest2\util.h
+
+1416797094 source:c:\users\owner\documents\c++ stuff\gltest2\util.cpp
+	<GL/glew.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1416692577 c:\users\owner\documents\c++ stuff\gltest2\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1416838946 source:c:\users\owner\documents\c++ stuff\gltest2\glew\src\glew.c
+	<GL/glew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1416692577 c:\users\owner\documents\c++ stuff\gltest2\glew\include\gl\wglew.h
+	<windows.h>
+
+1416692577 c:\users\owner\documents\c++ stuff\gltest2\glew\include\gl\glxew.h
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xmd.h>
+	<GL/glew.h>
+
+1420157118 c:\users\owner\documents\c++ stuff\gltest2\resources.h
+	<memory>
+
+1419966984 c:\users\owner\documents\c++ stuff\gltest2\math\matrix.h
+	"Quaternion.h"
+	"Vector.h"
+
+1419968291 source:c:\users\owner\documents\c++ stuff\gltest2\math\matrix.cpp
+	<cmath>
+	<iostream>
+	"Matrix.h"
+
+1421197191 c:\users\owner\documents\c++ stuff\gltest2\mesh.h
+	<stdlib.h>
+	<GL/glew.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stddef.h>
+	<math.h>
+	<stdio.h>
+	<array>
+	<vector>
+	<deque>
+	<unordered_map>
+	<list>
+	<string>
+	<iterator>
+	<algorithm>
+	<memory>
+	<iostream>
+	<initializer_list>
+	"Resources.h"
+	"Math/Matrix.h"
+	"Math/Vector.h"
+	"Math/Quaternion.h"
+	"smdl.h"
+	"util.h"
+	"Mesh/meshobj.h"
+	"Mesh/GeneralObj.h"
+	"Constants.h"
+	"Mesh/meshobj.h"
+	"Loaders/smdldef.h"
+
+1421198262 source:c:\users\owner\documents\c++ stuff\gltest2\mesh.cpp
+	"mesh.h"
+
+1419868614 c:\users\owner\documents\c++ stuff\gltest2\math\vector.h
+	<vector>
+	<exception>
+	<stdexcept>
+	<cmath>
+
+1419868690 c:\users\owner\documents\c++ stuff\gltest2\math\quaternion.h
+	"Vector.h"
+
+1419868690 source:c:\users\owner\documents\c++ stuff\gltest2\math\quaternion.cpp
+	"Quaternion.h"
+	<iostream>
+
+1421201259 c:\users\owner\documents\c++ stuff\gltest2\smdl.h
+	<iostream>
+	<fstream>
+	<cstring>
+	<cmath>
+	<string>
+	<vector>
+	<forward_list>
+	<list>
+	<array>
+	<iterator>
+	"mesh.h"
+	"Mesh/meshobj.h"
+	<memory>
+	<iomanip>
+	<algorithm>
+	"Math/Vector.h"
+	"Constants.h"
+	"Loaders/Loader.h"
+
+1421198262 source:c:\users\owner\documents\c++ stuff\gltest2\smdl.cpp
+	"smdl.h"
+
+1421012529 c:\users\owner\documents\c++ stuff\gltest2\mesh\meshobj.h
+	<iostream>
+	<string>
+	<forward_list>
+	<memory>
+	<algorithm>
+	<list>
+	<unordered_map>
+	<Math/Vector.h>
+	<Math/Quaternion.h>
+	<Math/Matrix.h>
+	<Constants.h>
+
+1420942587 source:c:\users\owner\documents\c++ stuff\gltest2\mesh\meshobj.cpp
+	"meshobj.h"
+	<Constants.h>
+
+1420943026 c:\users\owner\documents\c++ stuff\gltest2\mesh\generalobj.h
+	"meshobj.h"
+	<vector>
+	<deque>
+	<forward_list>
+	<mesh.h>
+	<memory>
+
+1421016805 source:c:\users\owner\documents\c++ stuff\gltest2\mesh\generalobj.cpp
+	"GeneralObj.h"
+
+1421198349 c:\users\owner\documents\c++ stuff\gltest2\constants.h
+	<string>
+
+1421027096 c:\users\owner\documents\c++ stuff\gltest2\loaders\loader.h
+	<fstream>
+
+1421017171 source:c:\users\owner\documents\c++ stuff\gltest2\loaders\loader.cpp
+	"Loader.h"
+
+1421027907 source:c:\users\owner\documents\c++ stuff\gltest2\loaders\def.cpp
+	"def.h"
+
+1421026585 c:\users\owner\documents\c++ stuff\gltest2\loaders\def.h
+	"Loader.h"
+	<smdl.h>
+
+1421198410 source:c:\users\owner\documents\c++ stuff\gltest2\loaders\smdldef.cpp
+	"smdldef.h"
+
+1421197493 c:\users\owner\documents\c++ stuff\gltest2\loaders\smdldef.h
+	"Loader.h"
+	<string>
+	<vector>
+	<smdl.h>
+
+1416665416 c:\users\owner\documents\c++ stuff\gltest2\glut\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1416838946 source:c:\users\owner\documents\c++ stuff\puzzlegame\glew\src\glew.c
+	<GL/glew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<stddef.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
+
+1416692577 c:\users\owner\documents\c++ stuff\puzzlegame\glew\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1416692577 c:\users\owner\documents\c++ stuff\puzzlegame\glew\include\gl\wglew.h
+	<windows.h>
+
+1416692577 c:\users\owner\documents\c++ stuff\puzzlegame\glew\include\gl\glxew.h
+	<X11/Xlib.h>
+	<X11/Xutil.h>
+	<X11/Xmd.h>
+	<GL/glew.h>
+
+1425249397 source:c:\users\owner\documents\c++ stuff\puzzlegame\loaders\loader.cpp
+	"Loader.h"
+
+1425249424 c:\users\owner\documents\c++ stuff\puzzlegame\loaders\loader.h
+	<fstream>
+	<iostream>
+	<memory>
+
+1422054310 source:c:\users\owner\documents\c++ stuff\puzzlegame\loaders\smdldef.cpp
+	"smdldef.h"
+
+1421453962 c:\users\owner\documents\c++ stuff\puzzlegame\loaders\smdldef.h
+	"Loader.h"
+	<string>
+	<vector>
+	<smdl.h>
+
+1416665416 c:\users\owner\documents\c++ stuff\puzzlegame\glut\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1422054612 source:c:\users\owner\documents\c++ stuff\puzzlegame\math\matrix.cpp
+	<cmath>
+	<iostream>
+	"Matrix.h"
+
+1421285253 c:\users\owner\documents\c++ stuff\puzzlegame\math\matrix.h
+	"Quaternion.h"
+	"Vector.h"
+
+1422662951 c:\users\owner\documents\c++ stuff\puzzlegame\math\quaternion.h
+	"Vector.h"
+
+1424743445 c:\users\owner\documents\c++ stuff\puzzlegame\math\vector.h
+	<vector>
+	<exception>
+	<stdexcept>
+	<cmath>
+
+1422662997 source:c:\users\owner\documents\c++ stuff\puzzlegame\math\quaternion.cpp
+	"Quaternion.h"
+	<iostream>
+
+1424746253 source:c:\users\owner\documents\c++ stuff\puzzlegame\mesh.cpp
+	"mesh.h"
+
+1422502526 c:\users\owner\documents\c++ stuff\puzzlegame\mesh.h
+	<stdlib.h>
+	<GL/glew.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<GL/freeglut.h>
+	<stddef.h>
+	<math.h>
+	<stdio.h>
+	<array>
+	<vector>
+	<deque>
+	<unordered_map>
+	<list>
+	<string>
+	<iterator>
+	<algorithm>
+	<memory>
+	<iostream>
+	"Mesh/meshobj.h"
+	"Resources.h"
+	"Math/Vector.h"
+	"Math/Quaternion.h"
+	"util.h"
+	"Mesh/GeneralObj.h"
+	"Loaders/smdldef.h"
+	"Globals.h"
+
+1422497887 c:\users\owner\documents\c++ stuff\puzzlegame\resources.h
+	<memory>
+
+1422054302 c:\users\owner\documents\c++ stuff\puzzlegame\smdl.h
+	<iostream>
+	<fstream>
+	<cstring>
+	<cmath>
+	<string>
+	<vector>
+	<forward_list>
+	<list>
+	<array>
+	<iterator>
+	"Mesh/meshobj.h"
+	"mesh.h"
+	<memory>
+	<iomanip>
+	<algorithm>
+	"Math/Vector.h"
+	"Globals.h"
+	"Loaders/Loader.h"
+
+1422054310 c:\users\owner\documents\c++ stuff\puzzlegame\mesh\meshobj.h
+	<iostream>
+	<string>
+	<forward_list>
+	<memory>
+	<algorithm>
+	<list>
+	<unordered_map>
+	<Math/Vector.h>
+	<Math/Quaternion.h>
+	<Math/Matrix.h>
+	<Globals.h>
+
+1421198349 c:\users\owner\documents\c++ stuff\puzzlegame\constants.h
+	<string>
+
+1416797094 c:\users\owner\documents\c++ stuff\puzzlegame\util.h
+
+1422054310 c:\users\owner\documents\c++ stuff\puzzlegame\mesh\generalobj.h
+	<Globals.h>
+	"meshobj.h"
+	"Math/Vector.h"
+	"Math/Quaternion.h"
+	<vector>
+	<deque>
+	<forward_list>
+	<mesh.h>
+	<memory>
+
+1425686704 source:c:\users\owner\documents\c++ stuff\puzzlegame\mesh\generalobj.cpp
+	"GeneralObj.h"
+
+1422054494 source:c:\users\owner\documents\c++ stuff\puzzlegame\mesh\meshobj.cpp
+	"meshobj.h"
+
+1422119192 source:c:\users\owner\documents\c++ stuff\puzzlegame\smdl.cpp
+	"smdl.h"
+
+1416797094 source:c:\users\owner\documents\c++ stuff\puzzlegame\util.cpp
+	<GL/glew.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1425683973 source:c:\users\owner\documents\c++ stuff\puzzlegame\main.cpp
+	<stdlib.h>
+	<GL/glew.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<math.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	<thread>
+	"mesh.h"
+	"Resources.h"
+	"Math/Matrix.h"
+	<list>
+	"Mesh/GeneralObj.h"
+	"GameManager.h"
+	"Globals.h"
+
+1425345545 c:\users\owner\documents\c++ stuff\puzzlegame\globals.h
+	<string>
+	<memory>
+
+1425684054 c:\users\owner\documents\c++ stuff\puzzlegame\gamemanager.h
+	<memory>
+	<array>
+	"GameState.h"
+	"GameStates/MenuState.h"
+	"GameStates/LevelState.h"
+	"GameStates/LevelEditor.h"
+	"GameStates/LevelSelect.h"
+
+1421552584 source:c:\users\owner\documents\c++ stuff\puzzlegame\resources.cpp
+	"Resources.h"
+
+1425345545 source:c:\users\owner\documents\c++ stuff\puzzlegame\globals.cpp
+	"Globals.h"
+
+1425685442 c:\users\owner\documents\c++ stuff\puzzlegame\gamestate.h
+	<array>
+	"mesh.h"
+
+1421614102 c:\users\owner\documents\c++ stuff\puzzlegame\gamestatex.h
+	"GameState.h"
+
+1425684629 c:\users\owner\documents\c++ stuff\puzzlegame\gamestates\menustate.h
+	<GameState.h>
+	<Objects/FontRect.h>
+	<string>
+	<algorithm>
+	<cstdlib>
+
+1424031245 source:c:\users\owner\documents\c++ stuff\puzzlegame\gamemanager.cpp
+	"GameManager.h"
+
+1425684694 source:c:\users\owner\documents\c++ stuff\puzzlegame\gamestates\menustate.cpp
+	"MenuState.h"
+
+1416664885 c:\users\owner\documents\c++ stuff\puzzlegame\freeglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1416664885 c:\users\owner\documents\c++ stuff\puzzlegame\freeglut\include\gl\freeglut_std.h
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1416664885 c:\users\owner\documents\c++ stuff\puzzlegame\freeglut\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1416664885 c:\users\owner\documents\c++ stuff\puzzlegame\freeglut\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1425681138 c:\users\owner\documents\c++ stuff\puzzlegame\gamestates\levelstate.h
+	<GameState.h>
+	<Objects/Block.h>
+	<Objects/Character.h>
+	<Objects/Status.h>
+	<Objects/Spikes.h>
+	<Objects/FontRect.h>
+	<vector>
+	<Math/Vector.h>
+	<fstream>
+	<exception>
+	<Loaders/Loader.h>
+
+1425681753 source:c:\users\owner\documents\c++ stuff\puzzlegame\gamestates\levelstate.cpp
+	"LevelState.h"
+
+1425346688 c:\users\owner\documents\c++ stuff\puzzlegame\objects\fontrect.h
+	<Math/Vector.h>
+	<Math/Quaternion.h>
+	<Mesh/GeneralObj.h>
+
+1425251135 c:\users\owner\documents\c++ stuff\puzzlegame\objects\block.h
+	<Math/Vector.h>
+	<array>
+	<vector>
+	<algorithm>
+	<Math/Quaternion.h>
+	<Mesh/GeneralObj.h>
+
+1425250985 source:c:\users\owner\documents\c++ stuff\puzzlegame\objects\block.cpp
+	"Block.h"
+
+1422497154 source:c:\users\owner\documents\c++ stuff\puzzlegame\objects\fontrect.cpp
+	"FontRect.h"
+
+1422666624 c:\users\owner\documents\c++ stuff\puzzlegame\objects\character.h
+	<Mesh/GeneralObj.h>
+	<Math/Vector.h>
+	<Math/Quaternion.h>
+	"Block.h"
+
+1422666594 source:c:\users\owner\documents\c++ stuff\puzzlegame\objects\character.cpp
+	"Character.h"
+
+1422504516 c:\users\owner\documents\c++ stuff\puzzlegame\objects\status.h
+	<Math/Vector.h>
+	<Math/Quaternion.h>
+	<Mesh/GeneralObj.h>
+
+1422504516 source:c:\users\owner\documents\c++ stuff\puzzlegame\objects\status.cpp
+	"Status.h"
+
+1425432345 c:\users\owner\documents\c++ stuff\puzzlegame\objects\spikes.h
+	<Mesh/GeneralObj.h>
+	<Math/Vector.h>
+	<Math/Quaternion.h>
+
+1425432230 source:c:\users\owner\documents\c++ stuff\puzzlegame\objects\spikes.cpp
+	"Spikes.h"
+
+1425686145 c:\users\owner\documents\c++ stuff\puzzlegame\gamestates\leveleditor.h
+	<string>
+	<memory>
+	<GameState.h>
+	<Objects/CharacterLE.h>
+	<Objects/Selector.h>
+	<Objects/FontRect.h>
+	<Objects/Spikes.h>
+	<Loaders/Loader.h>
+
+1424744826 c:\users\owner\documents\c++ stuff\puzzlegame\objects\characterle.h
+	<Mesh/GeneralObj.h>
+	<Math/Vector.h>
+	<Math/Quaternion.h>
+	"Block.h"
+
+1424744886 source:c:\users\owner\documents\c++ stuff\puzzlegame\objects\characterle.cpp
+	"CharacterLE.h"
+
+1425687962 source:c:\users\owner\documents\c++ stuff\puzzlegame\gamestates\leveleditor.cpp
+	"LevelEditor.h"
+
+1424532311 c:\users\owner\documents\c++ stuff\puzzlegame\objects\selector.h
+	<Mesh/GeneralObj.h>
+	"CharacterLE.h"
+
+1424532470 source:c:\users\owner\documents\c++ stuff\puzzlegame\objects\selector.cpp
+	"Selector.h"
+
+1425688386 c:\users\owner\documents\c++ stuff\puzzlegame\gamestates\levelselect.h
+	<GameState.h>
+	<Objects/FontRect.h>
+	<string>
+	<algorithm>
+	<cstdlib>
+	<sstream>
+	<fstream>
+
+1425688414 source:c:\users\owner\documents\c++ stuff\puzzlegame\gamestates\levelselect.cpp
+	"LevelSelect.h"
+

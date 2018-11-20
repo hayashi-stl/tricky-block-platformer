@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GLTest2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GLTest2" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Debug" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pg" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg -lgmon" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GLTest2" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/Release" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-ftemplate-backtrace-limit=0" />
+			<Add directory="glew/include" />
+			<Add directory="freeglut/include" />
+			<Add directory="../PuzzleGame" />
+		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="freeglut/lib" />
+		</Linker>
+		<Unit filename="GameManager.cpp" />
+		<Unit filename="GameManager.h" />
+		<Unit filename="GameState.h" />
+		<Unit filename="GameStateX.h" />
+		<Unit filename="GameStates/LevelEditor.cpp" />
+		<Unit filename="GameStates/LevelEditor.h" />
+		<Unit filename="GameStates/LevelSelect.cpp" />
+		<Unit filename="GameStates/LevelSelect.h" />
+		<Unit filename="GameStates/LevelState.cpp" />
+		<Unit filename="GameStates/LevelState.h" />
+		<Unit filename="GameStates/MenuState.cpp" />
+		<Unit filename="GameStates/MenuState.h" />
+		<Unit filename="Globals.cpp" />
+		<Unit filename="Globals.h" />
+		<Unit filename="Loaders/Loader.cpp" />
+		<Unit filename="Loaders/Loader.h" />
+		<Unit filename="Loaders/smdldef.cpp" />
+		<Unit filename="Loaders/smdldef.h" />
+		<Unit filename="Math/Matrix.cpp" />
+		<Unit filename="Math/Matrix.h" />
+		<Unit filename="Math/Quaternion.cpp" />
+		<Unit filename="Math/Quaternion.h" />
+		<Unit filename="Math/Vector.h" />
+		<Unit filename="Mesh/GeneralObj.cpp" />
+		<Unit filename="Mesh/GeneralObj.h" />
+		<Unit filename="Mesh/meshobj.cpp" />
+		<Unit filename="Mesh/meshobj.h" />
+		<Unit filename="Objects/Block.cpp" />
+		<Unit filename="Objects/Block.h" />
+		<Unit filename="Objects/Character.cpp" />
+		<Unit filename="Objects/Character.h" />
+		<Unit filename="Objects/CharacterLE.cpp" />
+		<Unit filename="Objects/CharacterLE.h" />
+		<Unit filename="Objects/FontRect.cpp" />
+		<Unit filename="Objects/FontRect.h" />
+		<Unit filename="Objects/Selector.cpp" />
+		<Unit filename="Objects/Selector.h" />
+		<Unit filename="Objects/Spikes.cpp" />
+		<Unit filename="Objects/Spikes.h" />
+		<Unit filename="Objects/Status.cpp" />
+		<Unit filename="Objects/Status.h" />
+		<Unit filename="Resources.cpp" />
+		<Unit filename="Resources.h" />
+		<Unit filename="glew/src/glew.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hello-gl.f.glsl" />
+		<Unit filename="hello-gl.v.glsl" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mesh.cpp" />
+		<Unit filename="mesh.h" />
+		<Unit filename="smdl.cpp" />
+		<Unit filename="smdl.h" />
+		<Unit filename="util.cpp" />
+		<Unit filename="util.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
